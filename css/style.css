@@ -152,7 +152,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background: url(../img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,6 +229,52 @@
 /*** Food Menu ***/
 .nav-pills .nav-item .active {
     border-bottom: 2px solid var(--primary);
+}
+.tab-content {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-img {
+    width: 250px; /* Ubah ukuran gambar sesuai kebutuhan */
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.menu-details {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-details h5 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    width: 100%;
 }
 
 
